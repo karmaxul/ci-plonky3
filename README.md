@@ -1,3 +1,17 @@
+### Project Family
+
+This repository is part of the **HealChain / Harmony Worldwide Cryptographic Suite**:
+
+- **[HealChain-crypto](https://github.com/karmaxul/HealChain-crypto)** — Umbrella repo — cryptographic suite overview
+- **[ci-sha4096](https://github.com/karmaxul/ci-sha4096)** — 4096-bit classical hash, IACR ePrint 2026/109810
+- **[ci-poseidon](https://github.com/karmaxul/ci-poseidon)** — Arithmetization-oriented ZK-friendly hash, IACR ePrint (pending)
+- **[ci-plonky3](https://github.com/karmaxul/ci-plonky3)** — STARK variant over Goldilocks/Plonky3 — K-sequence 5.1% faster than Grain LFSR at t=12
+- **[ci-quantum-storage](https://github.com/karmaxul/ci-quantum-storage)** — Classical stabilizer / reference implementation
+- **[HealChain](https://healchain.org)** — Production deployment using ci-poseidon for on-chain ZK commitments
+
+All projects derive constants from the same **Harmony Worldwide mathematical framework** (Ci = 85/27 + resonance matrix).
+
+
 # ci-plonky3
 
 ci-Poseidon STARK variant — Plonky3/Goldilocks implementation with rational constant benchmarks.
